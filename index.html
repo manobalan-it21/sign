@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id"
+        content="1014783365385-q165v999l7r1ef12ksb3b2scu517fdo6.apps.googleusercontent.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="ïndex.css">
+    <title>Login in with google account with js</title>
+</head>
+
+<body>
+
+    <h2 class="älert alert-primary">Sign in with google using JS</h2>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div class="data">
+        <p>Name</p>
+        <p id="name" class="älert alert-success"></p>
+        <p>Profile Pic</p>
+        <img id="ïmage" class="rounded-circle" width="100" height="100" />
+        <p>Email</p>
+        <p id="email"></p>
+        <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
+    </div>
+
+
+    <script src="ïndex.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</body>
+
+</html>
